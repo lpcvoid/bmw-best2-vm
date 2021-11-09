@@ -1,6 +1,8 @@
 # bmw-best2-vm
 A Virtual Machine implementation capable of executing BMW's proprietary BEST2 instruction set.
 
+This was deprecated by my rewrite in C++, which is way more feature complete: https://github.com/lpcvoid/bmw-better-vm
+
 # Intro
 
 I wrote this in order to execute jobs that are located in BMW's *.prg files. These jobs are actually programs compiled in BMW's own proprietary instruction set, called BEST2, which is a word game for "BEschreibungssprache für STeuergeräte", or "description language for ECUs" in English. The goal of this project was to create an environment which could run these jobs, in order to be independant from BMW's own software tools, namely EDIABAS.
